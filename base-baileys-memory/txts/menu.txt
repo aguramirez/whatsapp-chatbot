@@ -1,0 +1,8 @@
+Selecciona algunas de las opciones:
+
+1 - Hacer reserva
+2 - Ver mi reserva
+3 - Cancelar mi reserva
+4 - Consultas
+
+0 - Salir

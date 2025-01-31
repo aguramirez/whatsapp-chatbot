@@ -1,0 +1,101 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493885056441@s.whatsapp.net',
+    fromMe: false,
+    id: '3F208DA1B86BD1AE6AE6',
+    participant: undefined
+  },
+  messageTimestamp: 1738295762,
+  pushName: 'Agustín 🇦🇷',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493885056441'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_40d9fa96-10a9-4d00-b8a1-390529f15798',
+  keyword: 'key_d312f102-c52c-4ba8-b19d-c98993c49483',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '6794bacaa6033a36559851387eaf0c2f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2defdce4-606b-4d8d-9b14-48519bbb589e',
+  keyword: 'ans_40d9fa96-10a9-4d00-b8a1-390529f15798',
+  answer: 'En que le podemos ayudar hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'fd5f6efe2096ef07a5cafc17e80487fd'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_827a3e05-a59a-4bc8-b558-f5ea20833b03',
+  keyword: 'ans_2defdce4-606b-4d8d-9b14-48519bbb589e',
+  answer: 'Selecciona algunas de las opciones:\r\n' +
+    '\r\n' +
+    '1 - Hacer reserva\r\n' +
+    '2 - Ver mi reserva\r\n' +
+    '3 - Cancelar mi reserva\r\n' +
+    '4 - Consultas\r\n' +
+    '\r\n' +
+    '0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b60afb2bb32a37a88662345898076dd7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493885056441@s.whatsapp.net',
+    fromMe: false,
+    id: '3FC36A7A9E4C9349116B',
+    participant: undefined
+  },
+  messageTimestamp: 1738295770,
+  pushName: 'Agustín 🇦🇷',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5493885056441'
+}
